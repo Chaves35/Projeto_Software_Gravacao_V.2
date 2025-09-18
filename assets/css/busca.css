@@ -1,0 +1,120 @@
+/*
+ * CEMEAC ESTÚDIOS - Estilos para a página de busca
+ * Versão: 1.0
+ */
+
+/* Estilos globais da página de busca */
+body {
+    background-color: var(--bg-dark);
+    color: var(--color-text-light);
+    font-family: Arial, sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Estilo do card principal */
+.card {
+    background-color: var(--bg-darker);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-dark);
+    color: var(--color-text-light);
+}
+
+.card-header {
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+}
+
+.card-footer {
+    background-color: var(--bg-light-dark);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+}
+
+/* Estilo do formulário de busca */
+.form-control {
+    background-color: var(--bg-light-dark);
+    border: 1px solid var(--bg-light-dark);
+    color: var(--color-text-light);
+}
+
+.form-control:focus {
+    background-color: var(--bg-light-dark);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.25rem var(--color-primary-transparent);
+    color: var(--color-text-light);
+}
+
+/* Estilo do botão de busca */
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+}
+
+/* Estilo da tabela de resultados */
+.table {
+    background-color: transparent;
+    color: var(--color-text-light);
+}
+
+.table th,
+.table td {
+    border-top: 1px solid var(--bg-light-dark);
+}
+
+.table thead th {
+    background-color: var(--bg-light-dark);
+    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-text-light);
+}
+
+.table-hover tbody tr:hover {
+    background-color: var(--color-primary-transparent);
+    color: var(--color-text-light);
+}
+
+.table-responsive {
+    margin-top: 1.5rem;
+}
+
+/* Estilo das mensagens de alerta */
+.alert-info {
+    background-color: rgba(23, 162, 184, 0.2);
+    border-color: var(--color-info);
+    color: var(--color-info);
+}
+
+/* Estilo do botão de voltar */
+.btn-outline-secondary {
+    color: var(--color-text-muted);
+    border-color: var(--color-text-muted);
+}
+
+.btn-outline-secondary:hover {
+    color: var(--color-text-white);
+    background-color: var(--color-text-muted);
+}
+
+/* Estilo do badge de status */
+.badge {
+    padding: 0.5em 0.8em;
+    font-size: 85%;
+    font-weight: 600;
+}
+
+.bg-primary { background-color: var(--color-primary) !important; color: var(--color-text-white) !important; }
+.bg-info { background-color: var(--color-info) !important; color: var(--color-text-white) !important; }
+.bg-warning { background-color: var(--color-warning) !important; color: var(--bg-dark) !important; }
+.bg-danger { background-color: var(--color-danger) !important; color: var(--color-text-white) !important; }
+.bg-success { background-color: var(--color-success) !important; color: var(--color-text-white) !important; }
