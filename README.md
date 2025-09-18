@@ -64,7 +64,7 @@ O **CEMEAC Estúdios** é um sistema de gerenciamento projetado para gerenciar u
 ##  │       ├── jquery.min.js
 ##  │       ├── owl.carousel.min.js
 ##  │       └── painel.js
-##  ├── auth/ Ok
+##  ├── auth/
 ##  │   ├── cadastrar_usuario.php
 ##  │   ├── gerar_hash.php
 ##  │   ├── login.php
@@ -75,7 +75,7 @@ O **CEMEAC Estúdios** é um sistema de gerenciamento projetado para gerenciar u
 ##  │   ├── config.php
 ## │   ├── database.php
 ## │   └── url.php
-## ├── pages/OK
+## ├── pages
 ## │   └── painel-atualizacao.php 
 ## ├── .htaccess
 ## ├── index.php 
