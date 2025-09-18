@@ -45,58 +45,44 @@ O **CEMEAC Estúdios** é um sistema de gerenciamento projetado para gerenciar u
 
 ## Estrutura de Arquivos
 ## SOFTWAREGERENCIAMENTO/
-##  ├── api/ OK
-##  │   ├── adicionar_agendamento.php ===> 10
-##  │   ├── atualizar_status.php ===> 11
-##  │   ├── obter_agendamentos.php ===> 12
-##  │   └── obter_professores.php ===> 13
+##  ├── api/
+##  │   ├── adicionar_agendamento.php
+##  │   ├── atualizar_status.php
+##  │   ├── obter_agendamentos.php
+##  │   └── obter_professores.php
 ##  ├── assets/
 ##  │   ├── css/ Ok
-##  │   │   ├── bootstrap.min.css===> 15
-##  │   │   ├── owl.carousel.min.css ===> 16
-##  │   │   ├── owl.theme.default.css ===> 17
-##  │   │   └── painel.css ===> 18
+##  │   │   ├── bootstrap.min.css
+##  │   │   ├── owl.carousel.min.css
+##  │   │   ├── owl.theme.default.css
+##  │   │   └── painel.css
 ##  │   ├── img/
 ##  │   └── js/OK 
-##  │       ├── bootstrap.bundle.min.js ===> 19
-##  │       ├── bootstrap.min.js ===> 20
-##  │       ├── jquery-3.6.0.min.js ===> 21
-##  │       ├── jquery.min.js ===> 22
-##  │       ├── owl.carousel.min.js ===> 23
-##  │       └── painel.js ===> 23
+##  │       ├── bootstrap.bundle.min.js
+##  │       ├── bootstrap.min.js
+##  │       ├── jquery-3.6.0.min.js
+##  │       ├── jquery.min.js
+##  │       ├── owl.carousel.min.js
+##  │       └── painel.js
 ##  ├── auth/ Ok
-##  │   ├── cadastrar_usuario.php ===> 04
-##  │   ├── gerar_hash.php ===> 05
-##  │   ├── login.php ===> 06
-##  │   ├── logout.php ===> 07
-## │   ├── redefinir-senha.php ===> 08
-## │   └── register.php ===> 09
-##  ├── config/ Ok
-##  │   ├── config.php  ===>01 
-## │   ├── database.php ===> 02
-## │   └── url.php ===> 03
+##  │   ├── cadastrar_usuario.php
+##  │   ├── gerar_hash.php
+##  │   ├── login.php
+##  │   ├── logout.php
+## │   ├── redefinir-senha.php
+## │   └── register.php
+##  ├── config/ 
+##  │   ├── config.php
+## │   ├── database.php
+## │   └── url.php
 ## ├── pages/OK
-## │   └── painel-atualizacao.php ===> 14
+## │   └── painel-atualizacao.php 
 ## ├── .htaccess
-## ├── index.php ===> 25
+## ├── index.php 
 ## ├── README.md
-## └── test_connection.php ===> 24
+## └── test_connection.php
 
 
 
-##  -- Usuário para o Estúdio 1
-## INSERT INTO usuarios (username, password, perfil, studio_responsavel) 
-## VALUES ('adaorios', '$2y$10$cOfim0W7OjhVJMdhTfp3V.FCot3WKZz4n/NbQtwb6sJy5wK4ASrYW', 'editor', 'Estúdio 1');
 
-## -- Usuário para o Estúdio 2
-## INSERT INTO usuarios (username, password, perfil, studio_responsavel) 
-## VALUES ('keile', '$2y$10$TaZmXwsTbLBuooWEfSJ7bOLcsEcFGHS3UNIXMNBuZpAUoUcn2gfdu', 'editor', 'Estúdio 2');
-
-##  -- Usuário para o Estúdio 3
-## INSERT INTO usuarios (username, password, perfil, studio_responsavel) 
-## VALUES ('luizao', '$2y$10$FDB78XtPo6J2oLJie5Ict.b863rzEgFyce2Pk7fA5SesIEMMXFE5W', 'editor', 'Estúdio 3');
-
-## -- Usuário para o Estúdio 4
-## INSERT INTO usuarios (username, password, perfil, studio_responsavel) 
-## VALUES ('edinardo', '$2y$10$LMMH3uWDZxIluIXjLxUXpOq7zocU657RJ8bClH8QhfbrwErlo6Bly', 'editor', 'Estúdio 4');
 
